@@ -1,0 +1,239 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  text-decoration: none;
+  font: inherit;
+  vertical-align: baseline;
+  color: #000000;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+p {
+  color: #5e5e5e;
+}
+
+body {
+  background-color: #262626;
+  overflow: auto;
+}
+
+.page {
+  background-color: aliceblue;
+  margin: 3em auto;
+  padding: 2em;
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+header {
+  width: 70%;
+  padding: 4em 0 1em 0;
+  border-bottom: 1px solid #000000;
+}
+
+.topCorner {
+  background-color: #000000;
+  width: 500px;
+  height: 1000px;
+  transform: rotate(-45deg);
+  position: absolute;
+  right: -200px;
+  top: -350px;
+}
+
+main {
+  display: flex;
+}
+
+.line {
+  background-color: #000000;
+  width: 3em;
+  height: 2px;
+  margin: 1em 0;
+}
+
+.left {
+  border-right: 1px solid #000000;
+  padding: 1em 0 0 0;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.right {
+  padding: 1em 0 0 1em;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.profile {
+  width: 70%;
+  border-bottom: 1px solid #000000;
+}
+.profile p {
+  padding: 1em 0;
+}
+
+.social {
+  margin-top: 1em;
+  border-bottom: 1px solid #000000;
+}
+
+.socialContent {
+  display: flex;
+  margin: 1em 0;
+}
+.socialContent div {
+  padding-right: 2em;
+  display: flex;
+}
+.socialContent div img {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.skills {
+  padding-top: 2em;
+}
+
+.skill {
+  percentage: 60%;
+  padding-top: 1em;
+}
+.skill .skillName {
+  padding-bottom: 5px;
+}
+.skill .skillBar {
+  width: 90%;
+  height: 15px;
+  background-color: #ffffff;
+  border: 1px solid grey;
+}
+.skill .bar {
+  width: 60%;
+  height: 100%;
+  background-color: grey;
+}
+
+.skill1 {
+  percentage: 50%;
+  padding-top: 1em;
+}
+.skill1 .skillName {
+  padding-bottom: 5px;
+}
+.skill1 .skillBar {
+  width: 90%;
+  height: 15px;
+  background-color: #ffffff;
+  border: 1px solid grey;
+}
+.skill1 .bar {
+  width: 50%;
+  height: 100%;
+  background-color: grey;
+}
+
+.skill2 {
+  percentage: 90%;
+  padding-top: 1em;
+}
+.skill2 .skillName {
+  padding-bottom: 5px;
+}
+.skill2 .skillBar {
+  width: 90%;
+  height: 15px;
+  background-color: #ffffff;
+  border: 1px solid grey;
+}
+.skill2 .bar {
+  width: 90%;
+  height: 100%;
+  background-color: grey;
+}
+
+.skill3 {
+  percentage: 70%;
+  padding-top: 1em;
+}
+.skill3 .skillName {
+  padding-bottom: 5px;
+}
+.skill3 .skillBar {
+  width: 90%;
+  height: 15px;
+  background-color: #ffffff;
+  border: 1px solid grey;
+}
+.skill3 .bar {
+  width: 70%;
+  height: 100%;
+  background-color: grey;
+}
+
+.interests {
+  padding-top: 1em;
+}
+
+.interests p {
+  padding-top: 1em;
+  width: 50%;
+}
+
+.timeLine {
+  border-bottom: 1px solid black;
+  padding-top: 1em;
+}
+.timeLine .subContent {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1em;
+}
+.timeLine .year {
+  padding: 0 0 2em 0;
+  width: 12%;
+}
+.timeLine .info {
+  display: flex;
+  padding: 0 0 1em 0;
+}
+
+.references {
+  margin-top: 1em;
+}
+
+.bottomCorner {
+  background-color: #000000;
+  width: 500px;
+  height: 630px;
+  transform: rotate(-45deg);
+  position: absolute;
+  left: -210px;
+  bottom: -350px;
+}/*# sourceMappingURL=style.css.map */

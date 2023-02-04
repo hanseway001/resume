@@ -1,0 +1,22 @@
+@mixin skill($perc) { 
+    percentage: $perc;
+    padding-top: 1em;
+
+    .skillName {
+        padding-bottom: 5px;
+    }
+
+    .skillBar {
+        width: 90%;
+        height: 15px;
+        background-color: #ffffff;
+        border: 1px solid grey;    
+    }
+
+    .bar {
+        width: $perc;
+        height: 100%;
+        background-color: grey;
+    }
+
+}
